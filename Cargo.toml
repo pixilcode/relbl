@@ -1,9 +1,13 @@
 [package]
 name = "relbl"
 version = "0.1.0"
-authors = ["Brendon Bown <bhbochikens@gmail.com>"]
+authors = ["Brendon Bown <brendon.bown@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "1.3.7"
+
+[dev-dependencies]
+tempfile = "3.1.0"
