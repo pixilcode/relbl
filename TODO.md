@@ -1,6 +1,7 @@
 * Roadmap
   - [x] Can search in current directory for all files matching a regex
   - [x] Can rename files that match using a name that includes `${1}` to reference matching groups
+  - [ ] Add regex guide for basics on valid matching and replacing (to be found in `README.md`)
   - [ ] Can rename files based on an internal iterator (ie. use `IMG${iter}.jpg` to create  `IMG1.jpg`, `IMG2.jpg`, etc.)
   - [ ] Move all renamed to a target location
   - [ ] Expose other variables that can be used in the pattern name

@@ -5,8 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-## Added
-* Can search in current directory for all files that match a regex
+
+## [0.1.0] - 2020-05-08
+### Added
+* Basic functionality
+	* Search in current directory for all files that match a regex
+	* Rename files that match the regex with by a given pattern
+	* Pattern can include `{n}` to match the nth reference group
+	* Argument `--target-dir` or `-t` can pass a target directory to the program
 
 [Unreleased]: https://github.com/theDragonFire/relbl/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/theDragonFire/relbl/releases/tag/v0.1.0
