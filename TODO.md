@@ -11,7 +11,8 @@
   - [ ] Can rename dirs as well as/instead of files as well as/instead of symlinks
   - [ ] Ignore/process errors
   - [ ] Partial match (ex. "a" => "a.txt", "a.md", "abc.txt", etc.)
-  - [ ] Add match on parent directories as well (currently, can only match on file names)
+  - [ ] Add match on path as well (currently, can only match on file names)
   - [ ] Add logging to inform user of what's happening
   - [ ] Add interactive version
   - [ ] Improve help message (look more into `structopt` capability)
+  - [ ] Add dry run feature (doesn't actually run it, just shows what *would* happen)
