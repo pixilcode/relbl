@@ -1,15 +1,17 @@
 * Roadmap
   - [x] Can search in current directory for all files matching a regex
   - [x] Can rename files that match using a name that includes `${1}` to reference matching groups
-  - [ ] Add regex guide for basics on valid matching and replacing (to be found in `README.md`)
+  - [x] Add regex guide for basics on valid matching and replacing (to be found in `README.md`)
   - [ ] Can rename files based on an internal iterator (ie. use `IMG${iter}.jpg` to create  `IMG1.jpg`, `IMG2.jpg`, etc.)
-  - [ ] Move all renamed to a target location
   - [ ] Expose other variables that can be used in the pattern name
   - [ ] Copy and rename
   - [ ] Can set target out-directory
   - [ ] Can set target in-directory
   - [ ] Can do a recursive search
-  - [ ] Can rename dirs instead of files
+  - [ ] Can rename dirs as well as/instead of files as well as/instead of symlinks
   - [ ] Ignore/process errors
   - [ ] Partial match (ex. "a" => "a.txt", "a.md", "abc.txt", etc.)
   - [ ] Add match on parent directories as well (currently, can only match on file names)
+  - [ ] Add logging to inform user of what's happening
+  - [ ] Add interactive version
+  - [ ] Improve help message (look more into `structopt` capability)

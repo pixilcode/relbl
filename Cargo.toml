@@ -1,6 +1,6 @@
 [package]
 name = "relbl"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Brendon Bown <brendon.bown@gmail.com>"]
 edition = "2018"
 
