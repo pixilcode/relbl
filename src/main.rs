@@ -20,7 +20,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let query = format_query(&args.query)?;
     let replace = format_replace(&args.replace);
     let files = get_matching_files(args.target_dir.unwrap_or(PathBuf::from(".")), &query)?;
-    println!("{:?}", files);
     rename_files(files, &query, &replace)?;
     Ok(())
 }
